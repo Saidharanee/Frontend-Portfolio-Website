@@ -1,0 +1,210 @@
+/* General Styles */
+        body {
+           
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+}
+
+/* 2.Hero Section Styles */
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 90px 0;
+}
+
+        .hero-img {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: rgba(15, 23, 42, 0.8);;
+            border: 1px solid rgba(0, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow:rgba(0, 255, 255, 0.05);
+            height: 500px;
+            width: 500px;
+}
+
+/*3.Features Section */
+        .section-padding {
+            padding: 60px 0;
+}
+
+/* cards */
+        #card-body{
+            border:black 1px solid;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: rgba(15, 23, 42, 0.8);;
+            border: 1px solid rgba(0, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow:rgba(0, 255, 255, 0.05);
+            
+}
+        #card{
+            border:black 1px solid;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: rgba(15, 23, 42, 0.8);;
+            border: 1px solid rgba(0, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow:rgba(0, 255, 255, 0.05);
+            
+}
+/* 4.skills */
+        .highlight-text{
+            font-size: 20px;
+            font-weight: bold;
+            color: #38bdf8;
+            background: rgba(15, 23, 42, 0.8);;
+            border: 1px solid rgba(0, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.05);
+}
+
+/* 5.projects */
+        #project1{
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;                
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.05);
+            color:white;
+        }
+
+        
+/* 6.About Section Background */
+        .about-section {
+            color: white;
+            padding: 80px 0;
+}
+
+/* Glass Card */
+        .about-card {
+            background: rgba(15, 23, 42, 0.8);;
+            border: 1px solid rgba(0, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.05);
+}
+
+/* Heading Color */
+        .about-section h2 {
+            color: #60a5fa;
+}
+
+/* Number Highlight */
+        .highlight-number {
+            font-size: 40px;
+            font-weight: bold;
+            color: #38bdf8;
+}
+
+/* Profile Image */
+        .profile-img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+    
+} 
+
+/* 7. get in touch */
+/* Contact Section Background */
+        .contact-section {
+            color:#60a5fa;
+            padding: 80px 0;
+}
+
+/* Card Styling */
+        .contact-card {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.05);
+}
+
+        .contact-section .row {
+            display: flex;
+            align-items: stretch; 
+}
+
+        .contact-section .col-lg-6 {
+            display: flex;
+}
+
+        .contact-card {
+            flex: 1; 
+}
+
+
+/* Input Fields */
+        .contact-section .form-control {
+            background: transparent;
+            border: 1px solid #1e293b;
+            color: white;
+            padding: 14px;
+            border-radius: 12px;
+}
+
+        .contact-section .form-control::placeholder {
+            color: #94a3b8;
+}
+
+        .contact-section .form-control:focus {
+            background: transparent;
+            color: white;
+            border-color: #22d3ee;
+            box-shadow: 0 0 10px rgba(34, 211, 238, 0.4);
+}
+
+/* Send Button */
+        .glow-btn {
+            background: linear-gradient(90deg, #06b6d4, #0ea5e9);
+            border: none;
+            padding: 15px;
+            border-radius: 14px;
+            font-weight: 600;
+            transition: 0.3s ease;
+}
+
+/*right side */
+/* Icon Circle */
+        .icon-circle {
+            width: 50px;
+            height: 50px;
+            background: rgba(34, 211, 238, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 20px;
+            color: #22d3ee;
+}
+
+/* Social Icons */
+        .social-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 1px solid #1e293b;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #22d3ee;
+            margin-right: 10px;
+            transition: 0.3s;
+}
+
+        .social-icon:hover {
+            background: #22d3ee;
+            color: black;
+}
+  
+/* 8.Footer Styles */
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 20px 0;
+}  
+    
